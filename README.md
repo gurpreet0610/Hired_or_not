@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+## Hired_Or_Not
+
+Application of **Logistic Classification** and **Linear Regression** as classifier
+
+### Gui
+
+GUI is made using **Tkinter**  
+U can run it by running HiredOrNot.py
+
+##Aim
+
+This program or gui will tell u whether the Fresher will be Hired or Not on the basis of some basic attributes
+=======
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/gurpreet0610/Hired_or_not/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -35,3 +49,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+>>>>>>> 6d578936387484f956fcfe7d03c6e332c70df5b0

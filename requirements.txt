@@ -1,0 +1,8 @@
+# Used by pip to install required python packages
+# Usage: pip install -r requirements.txt
+
+scikit-learn
+pandas
+pickle
+numpy
+matplotlib

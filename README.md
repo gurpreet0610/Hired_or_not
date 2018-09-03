@@ -5,7 +5,7 @@ Application of **Logistic Classification** and **Linear Regression** as classifi
 ### Gui
 
 GUI is made using **Tkinter**  
-U can run it by running HiredOrNot.py
+Anyone can run it by running HiredOrNot.py
 
 ## Aim
 

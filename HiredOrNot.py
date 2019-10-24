@@ -11,9 +11,9 @@ class gui_hire:
         self.gui()
         
     def gui(self):
-        top = t.Frame(self.m,width=500,height=100,bg='#9AACB8',relief=t.SUNKEN)
+        top = t.Frame(self.m,width=500,height=100,bg='#9ABCB8',relief=t.SUNKEN)
         top.pack(side=t.TOP)
-        bot = t.Frame(self.m,width=500,height=400)
+        bot = t.Frame(self.m,width=500,height=500)
         bot.pack()
         self.last = t.Frame(self.m,width=500,height=150,bg='#DDE2E3')
         self.last.pack()
@@ -29,8 +29,8 @@ class gui_hire:
         self.e3 = t.Entry(bot,textvariable=self.e3_val,font=('arial',15,'bold'),bd=7);self.e4 = t.Entry(bot,textvariable=self.e4_val,font=('arial',15,'bold'),bd=7)
         self.e5  = t.Entry(bot,textvariable=self.e5_val,font=('arial',15,'bold'),bd=7);self.e6 = t.Entry(bot,textvariable=self.e6_val,font=('arial',15,'bold'),bd=7)
         #Button
-        b1= t.Button(self.last,text="Linear Regression",height=1,width=20,command = self.calculateLinear,font=('arial',15,'bold'),bd=7)
-        b2= t.Button(self.last,text="Logistic Regression",height=1,width=20,command = self.calculateLogistic,font=('arial',15,'bold'),bd=7)            
+        b1= t.Button(self.last,text="Apply Linear Regression",height=1,width=20,command = self.calculateLinear,font=('arial',15,'bold'),bd=7)
+        b2= t.Button(self.last,text="Apply Logistic Regression",height=1,width=20,command = self.calculateLogistic,font=('arial',15,'bold'),bd=7)            
         #grid
         l1.grid(row=1,column=0);self.e1.grid(row=1,column=1,padx=30,pady=10)
         l2.grid(row=2,column=0);self.e2.grid(row=2,column=1,padx=30,pady=10)
